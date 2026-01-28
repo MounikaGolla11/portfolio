@@ -6,9 +6,8 @@
 }
 
 body {
-  background: #f0f4ff; /* Light background */
+  background: #f0f4ff; /* Light multicolor-friendly background */
   color: #222;
-  transition: 0.5s;
 }
 
 /* ===== HEADER ===== */
@@ -22,30 +21,28 @@ header {
   align-items: center;
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   z-index: 1000;
-  color: white;
 }
 
 .logo {
+  color: white;
   font-weight: bold;
-  color: #fff;
 }
 
 nav a {
   margin-left: 20px;
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: bold;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: #ff9ff3;
+  color: #ff9ff3; /* Hover effect pink */
 }
 
 /* ===== SECTIONS ===== */
 section {
   padding: 70px 40px;
-  transition: 0.5s;
 }
 
 /* ===== HERO ===== */
